@@ -56,6 +56,28 @@ body::before {
   margin-top: 40px;
   color: #ffecec;
 }
+music-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.music-btn button {
+  padding: 10px 15px;
+  font-size: 1em;
+  background-color: #ff66cc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ff99cc;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.music-btn button:hover {
+  background-color: #ff3399;
+}
 
 @keyframes glow {
   from {
